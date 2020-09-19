@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1200px) {
+  .main {
+    padding: 30px;
+  }
+  .main img {
+    width: 100%;
+  }
+  .main p,
+  .main .btn {
+    width: auto;
+  }
+
+  .features {
+    font-size: 90%;
+  }
+
+  .grow,
+  .user {
+    padding: 90px 0;
+  }
+
+  .ready .btn {
+    width: auto;
+  }
+
+  .flowing img,
+  .grow img,
+  .user img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .user-container,
+  .grow-container {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .grow,
+  .user {
+    padding: 70px 0;
+  }
+
+  .flowing {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .flowing h2,
+  .flowing p {
+    width: 100%;
+  }
+
+  .flowing .main-text {
+    margin: 0;
+  }
+
+  .user-container p,
+  .grow-container p {
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .user-container h2,
+  .grow-container h2 {
+    width: 100%;
+    font-size: 250%;
+  }
+
+  .ready h1 {
+    font-size: 250%;
+  }
+
+  .footer-container {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 20px;
+  }
+
+  header img {
+    width: 40%;
+  }
+
+  .main {
+    font-size: 80%;
+  }
+  .main .btn {
+    padding: 15px;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features div {
+    margin-bottom: 50px;
+  }
+  .flowing img,
+  .grow img,
+  .user img {
+    width: 100%;
+  }
+  .grow,
+  .user {
+    padding: 40px 0;
+  }
+
+  .ready {
+    padding: 10px;
+  }
+
+  .ready h1 {
+    font-size: 130%;
+  }
+
+  .ready .btn {
+    font-size: 90%;
+    padding: 15px 30px;
+  }
+
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+
+  .left,
+  .right {
+    margin-bottom: 50px;
+  }
+
+  .left p,
+  .right p {
+    width: 100%;
+  }
+
+  .right input,
+  .right button {
+    display: block;
+  }
+  .right input,
+  .right .btn {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .user-container,
+  .grow-container,
+  .flowing {
+    padding: 20px;
+  }
+
+  .flowing h2 {
+    font-size: 250%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grow,
+  .user {
+    padding: 30px 0;
+  }
+  .ready h1 {
+    font-size: 120%;
+  }
+}
